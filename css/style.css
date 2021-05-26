@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 16px;
+	color: #111238;
+}
+/* .container {
+	padding: 0;
+} */
+/* .header {
+	margin-top: 44px;
+	margin-bottom: 75px;
+} */
+.col {
+	padding: 0;
+}
+/* .row {
+	align-items: center;
+} */
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu-item:not(:last-child) {
+	margin-right: 20px;
+}
+.menu-link {
+	/* font-style: normal;
+	font-weight: normal;
+	line-height: 19px; */
+	color: #333333;
+	text-decoration: none;
+}
+.button {
+	display: inline-block;
+	text-decoration: none;
+}
+.button-link {
+	color: #111238;
+	padding: 10px 0;
+	margin-right: 30px;
+}
+.button-primary {
+	background: #1a75e8;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 15px 30px;
+}
