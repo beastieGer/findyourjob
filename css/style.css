@@ -1,16 +1,20 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
 	font-family: "Fira Sans", sans-serif;
 	font-size: 16px;
 	color: #111238;
 }
-/* .container {
-	padding: 0;
-} */
-/* .header {
-	margin-top: 44px;
-	margin-bottom: 75px;
-} */
+.hide {
+	display: none;
+}
+.header {
+	background: #f2f3f6;
+}
 .col {
 	padding: 0;
 }
@@ -26,15 +30,14 @@ body {
 	margin-right: 20px;
 }
 .menu-link {
-	/* font-style: normal;
-	font-weight: normal;
-	line-height: 19px; */
 	color: #333333;
 	text-decoration: none;
 }
 .button {
 	display: inline-block;
 	text-decoration: none;
+	border: none;
+	font-size: 15px;
 }
 .button-link {
 	color: #111238;
@@ -46,4 +49,101 @@ body {
 	color: #ffffff;
 	border-radius: 5px;
 	padding: 15px 30px;
+}
+.button-icon {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.button-text {
+	vertical-align: middle;
+}
+
+/* HERO */
+
+.hero-title {
+	margin: 0;
+	margin-top: 43px;
+	margin-bottom: 15px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 53px;
+}
+.hero-text {
+	font-size: 18px;
+	line-height: 140%;
+	margin-bottom: 30px;
+}
+
+.input-group {
+	margin-bottom: 25px;
+	padding: 10px;
+
+	background: #ffffff;
+	border: 1px solid rgba(209, 209, 209, 0.1);
+	box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+	border-radius: 5px;
+}
+.input {
+	flex-grow: 1;
+	background-color: #fff;
+	border: none;
+	font-size: 16px;
+	line-height: 19px;
+	padding-left: 15px;
+}
+.input:focus {
+	outline: 1px dotted #666;
+}
+.tags-group {
+	padding-left: 15px;
+	color: #b2b2b2;
+	font-size: 14px;
+	line-height: 17px;
+}
+.tags-label {
+	margin-right: 15px;
+	font-size: 14px;
+	line-height: 17px;
+}
+.tag {
+	padding: 5px 10px;
+	margin-right: 10px;
+	border: 1px solid #b2b2b2;
+	border-radius: 5px;
+
+	color: #b2b2b2;
+	text-decoration: none;
+	/* font-size: 14px; */
+	/* line-height: 17px; */
+}
+/* SECTION START */
+/* SECTION START */
+.section {
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.card-icon {
+	/* fill: #111238; */
+	fill: #1112f8;
+	margin-bottom: 15px;
+}
+/* .card-icon:hover {
+	fill: 111238;
+} */
+.card {
+	text-decoration: none;
+	color: #111238;
+
+	background: #f2f3f6;
+	border-radius: 10px;
+	padding: 35px;
+	transition: background-color 0.2s, color 0.2s;
+}
+.card:hover {
+	background: #1a75e8;
+	color: #fff;
+}
+.card:hover .card-icon {
+	fill: #fff;
+	transition: fill 0.2s;
 }
